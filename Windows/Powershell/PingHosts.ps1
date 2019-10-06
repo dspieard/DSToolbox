@@ -2,7 +2,7 @@
 .SYNOPSIS
 Pings a class C ip-range and checks if a host is up or down
 .DESCRIPTION
-The script wil ping each address in the range that's given. Don't forget the "." at the end of the IP and the spaces between the range ;)
+The script will ping each address in the range that's given. Don't forget the "." at the end of the IP and the spaces between the range ;)
 .EXAMPLE
 .\PingHosts.ps1 [ipsubnet] [startrange] [endrange]
 .\PingHosts.ps1 192.168.1. 1 254
