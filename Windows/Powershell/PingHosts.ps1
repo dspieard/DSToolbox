@@ -24,7 +24,7 @@ $range2 = $args[2]
 Start-Transcript -path logfile.txt
 foreach ($i in ($range1..$range2)){
     if (Test-Connection -ComputerName $ip$i -Count 2 -Quiet 6> $null) {
-        Write-Host "$ip$i is up en running!" -ForegroundColor Green
+        Write-Host "$ip$i is up and running!" -ForegroundColor Green
     }
     else {
         Write-Host "$ip$i is down!" -ForegroundColor Red
