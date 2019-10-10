@@ -14,7 +14,7 @@ echo -e "\e[34m
                |___/         |___/
 "
 if [[ $1 == -h || $1 == --help ]]; then
-        echo -e "\e[39mSyntax: ./ping [subnet] [startrange] [endrange]\nExample: ./pinghosts.sh 192.168.1. 1 254"
+        echo -e "\e[39mSyntax: ./pinghosts [subnet] [startrange] [endrange]\nExample: ./pinghosts.sh 192.168.1. 1 254"
         exit 1
 fi
 for i in `seq $range1 $range2`; do
